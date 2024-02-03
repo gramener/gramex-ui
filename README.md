@@ -20,7 +20,7 @@ These utility functions provide commonly used number, percentage and date format
 Import the functions as:
 
 ```js
-import { num, num0, num2, pc, pc0, pc1 } from "https://cdn.jsdelivr.net/npm/@gramex/ui/dist/format.js";
+import { num, num0, num2, pc, pc0, pc1 } from "https://cdn.jsdelivr.net/npm/@gramex/ui/dist/format.ts";
 ```
 
 |             | 0.0038 | 0.038 |  0.38 |   3.81 |    381 |    38,104 | 3,810,369.24 |
@@ -39,13 +39,13 @@ import { num, num0, num2, pc, pc0, pc1 } from "https://cdn.jsdelivr.net/npm/@gra
 - `pc0(value)`: 0 decimal percent. Use if % is between 10-100% and never below 1%
 - `pc1(value)`: 1 decimal percent. Use if % is between 1-10% and never below 0.1%
 
-See the [source](format.js) to create your own formats. Refer to
+See the [source](format.ts ":ignore") to create your own formats. Refer to
 [`Intl.NumberFormat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat).
 
 The following date formats are supported:
 
 ```js
-import { dmy, mdy, dm, md, wdmy } from "https://cdn.jsdelivr.net/npm/@gramex/ui/dist/format.js";
+import { dmy, mdy, dm, md, wdmy } from "https://cdn.jsdelivr.net/npm/@gramex/ui/dist/format.ts";
 ```
 
 |    Function |      23 Jan 2023 |
@@ -61,7 +61,7 @@ import { dmy, mdy, dm, md, wdmy } from "https://cdn.jsdelivr.net/npm/@gramex/ui/
 This code adds a dropdown to switch the
 [Bootstrap color mode](https://getbootstrap.com/docs/5.3/customize/color-modes/) between light and dark themes.
 
-[![Dark theme example](...)](docs/dark-theme.html ":include height=160px")
+[![Dark theme example](docs/dark-theme.png)](docs/dark-theme.html ":include height=160px")
 
 [Source code](docs/dark-theme.html ":include :type=code")
 
@@ -71,7 +71,7 @@ To run this project locally:
 
 - Clone this repo, and run `npm install` to install dependencies
 - Run `npm run build` to compile
-- Open [`index.html`](index.html) using a HTTP server (e.g. `python -m http.server`)
+- Open [`index.html`](index.html ":ignore") using a HTTP server (e.g. `python -m http.server`)
 
 To release, run:
 
