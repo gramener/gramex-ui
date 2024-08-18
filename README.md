@@ -87,8 +87,8 @@ git push --tags
 
 # Authors
 
-Anand S <s.anand@gramener.com>
+Anand S <root.node@gmail.com>
 
 # License
 
-[AGPL-3.0-only](https://spdx.org/licenses/AGPL-3.0-only.html)
+[MIT](https://spdx.org/licenses/MIT.html)
