@@ -2,5 +2,5 @@
 
 mkdir -p dist
 
-npx esbuild dark-theme.ts --format=esm --bundle --minify --allow-overwrite --sourcemap --outfile=dist/dark-theme.js
-npx esbuild format.ts --format=esm --bundle --minify --allow-overwrite --sourcemap --outfile=dist/format.js
+npx -y esbuild dark-theme.ts --format=esm --bundle --minify --allow-overwrite --sourcemap --outfile=dist/dark-theme.js
+npx -y esbuild format.ts --format=esm --bundle --minify --allow-overwrite --sourcemap --outfile=dist/format.js

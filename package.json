@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://code.gramener.com/gramex/gramex-ui"
+    "url": "git@github.com:gramener/gramex-ui"
   },
   "keywords": [
     "gramex",
@@ -20,38 +20,13 @@
   ],
   "author": "S Anand <root.node@gmail.com>",
   "contributors": [],
-  "license": "AGPL-3.0-only",
+  "license": "MIT",
   "bugs": {
-    "url": "https://code.gramener.com/gramex/gramex-ui/-/issues"
+    "url": "https://github.com/gramener/gramex-ui/issues"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "homepage": "https://gramener.com/gramex-ui/",
-  "prettier": {
-    "printWidth": 120
-  },
-  "eslintConfig": {
-    "root": true,
-    "parserOptions": {
-      "ecmaVersion": "latest",
-      "sourceType": "module"
-    },
-    "env": {
-      "browser": true,
-      "es2022": true,
-      "jest": true
-    },
-    "plugins": [
-      "html"
-    ],
-    "extends": "eslint:recommended"
-  },
-  "devDependencies": {
-    "esbuild": "^0.18.17",
-    "eslint": "^8.41.0",
-    "eslint-plugin-html": "^7.1.0",
-    "prettier": "^3.2"
-  }
+  "homepage": "https://gramener.github.io/gramex-ui/"
 }
