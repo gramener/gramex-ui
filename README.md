@@ -20,7 +20,7 @@ These utility functions provide commonly used number, percentage and date format
 Import the functions as:
 
 ```js
-import { num, num0, num2, pc, pc0, pc1 } from "https://cdn.jsdelivr.net/npm/@gramex/ui/dist/format.ts";
+import { num, num0, num2, pc, pc0, pc1 } from "https://cdn.jsdelivr.net/npm/@gramex/ui@0.3/dist/format.js";
 ```
 
 |             | 0.0038 | 0.038 |  0.38 |   3.81 |    381 |    38,104 | 3,810,369.24 |
@@ -45,7 +45,7 @@ See the [source](format.ts ":ignore") to create your own formats. Refer to
 The following date formats are supported:
 
 ```js
-import { dmy, mdy, dm, md, wdmy } from "https://cdn.jsdelivr.net/npm/@gramex/ui/dist/format.ts";
+import { dmy, mdy, dm, md, wdmy } from "https://cdn.jsdelivr.net/npm/@gramex/ui@0.3/dist/format.js";
 ```
 
 |    Function |      23 Jan 2023 |
