@@ -65,6 +65,12 @@ This code adds a dropdown to switch the
 
 [Source code](docs/dark-theme.html ":include :type=code")
 
+If you prefer a version without Bootstrap icons, use this:
+
+[![Dark theme example](docs/dark-theme.png)](docs/dark-theme-iconless.html ":include height=160px")
+
+[Source code](docs/dark-theme-iconless.html ":include :type=code")
+
 # Setup
 
 To run this project locally:
